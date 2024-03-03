@@ -1,0 +1,10 @@
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        #Creating an empty dictionary to store complement of each element and it's index
+        d = {}
+        #Iterating through array to check if sum of elements is equals to target or not
+        for i in range(len(nums)):
+            if target-nums[i] not in d:
+                d[nums[i]] = i
+            else:
+                return ([d[target-nums[i]],i]) 
