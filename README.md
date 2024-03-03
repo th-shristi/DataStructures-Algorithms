@@ -1,4 +1,4 @@
-# DataStructures and Algorithms
+# Data Structures and Algorithms
 Welcome to the "Data Structures and Algorithms with Python" repository🚀! This repository is dedicated to documenting my journey as I delve into the fascinating world of Data Structures and Algorithms (DSA) using Python programming language.
 
 # Features:
