@@ -3,7 +3,9 @@ Welcome to the "Data Structures and Algorithms with Python" repository🚀! This
 
 # Features:
 Problem Solutions: Browse through the solutions to a wide range of DSA problems, categorized by data structure (e.g., arrays, linked lists, trees) and algorithmic techniques (e.g., sorting, searching, dynamic programming).
+
 Python Implementation: All solutions are implemented in Python, showcasing how different data structures and algorithms can be efficiently implemented in Python programming language.
+
 LeetCode Challenges: Dive into the world of LeetCode challenges and explore step-by-step solutions to solve problems of varying difficulty levels.
 
 # Why DSA with Python?
