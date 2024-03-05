@@ -1,0 +1,8 @@
+class Solution:
+    def moveZeroes(self, nums: List[int]) -> None:
+        non = 0
+        
+        for curr in range(len(nums)):
+            if nums[curr] != 0:
+                nums[curr], nums[non] = nums[non], nums[curr]
+                non += 1
