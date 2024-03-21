@@ -1,0 +1,13 @@
+class Solution:
+    def subarraySum(self, nums: List[int], k: int) -> int:
+        n = len(nums)
+        mp = defaultdict(int)
+        pre, cnt = 0,0
+        mp[0] = 1
+
+        for i in range(n):
+            pre += nums[i]
+            remove = pre - k
+            cnt += mp[remove]
+            mp[pre] += 1
+        return cnt
